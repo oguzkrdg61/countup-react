@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+.count {
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.box {
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  border-radius: 50%;
+}
+.box1 {
+  background-color: steelblue;
+}
+.box2 {
+  background-color: blueviolet;
+}
+.box3 {
+  background-color: tomato;
+}
+.buttons {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn {
+  padding: 20px;
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
